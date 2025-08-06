@@ -4,7 +4,6 @@
   font-family: "Bitcount Prop Single", system-ui;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
   background-color: black;
 }
 
@@ -69,7 +68,7 @@ body {
 }
 
 .main-header.fixed-nav #mainMenu li > a::before {
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
 .main-header {
@@ -167,6 +166,7 @@ body {
   }
 
   /**/
+  
   .main-header .navbar-toggler .icon-bar {
     background-color: #fff;
     margin: 0 auto 6px;
@@ -233,6 +233,7 @@ nav img {
 .second-sec {
   padding: 80px 0;
   background-color: #000;
+  
 }
 
 .cards {
@@ -284,10 +285,6 @@ nav img {
   flex-grow: 1;
 }
 
-/* Special styling for Phase-2 card */
-.text-warning {
-  color: #ffffff !important;
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

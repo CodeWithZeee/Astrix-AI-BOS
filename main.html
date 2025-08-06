@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrix AI BOS</title>
+    <link rel="icon" type="image/png" href="Astrix_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="Astrix_logo.png" alt="Astrix AI BOS" class="loading-logo">
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div id="main-content" style="display: none;">
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg main-nav px-0">
+                <a class="navbar-brand" href="/">
+                    <img src="Astrix_logo.png" alt="Astrix AI BOS">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+                    aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar icon-bar-1"></span>
+                    <span class="icon-bar icon-bar-2"></span>
+                    <span class="icon-bar icon-bar-3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <ul class="navbar-nav ml-auto text-uppercase f1">
+                        <li>
+                            <a href="#home" class="active active-first">home</a>
+                        </li>
+                        <li>
+                            <a href="#about">about us</a>
+                        </li>
+                        <li>
+                            <a href="#service">services</a>
+                        </li>
+                        <li>
+                            <a href="#project">projects</a>
+                        </li>
+                        <li>
+                            <a href="#team">team</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="headline-container">
+        <div>
+            <h1>The World's Most Capable AI Agent Operating System</h1>
+        </div>
+    </section>
+
+    <h1 style="font-weight: 300;">Core Features & Capabilities</h1>
+    <div class="canvas-wrapper">
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1"></stop>
+                        </linearGradient>
+                        <linearGradient id="grad-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#8B5CF6"></stop>
+                            <stop offset="100%" stop-color="#A855F7"></stop>
+                        </linearGradient>
+                        <linearGradient id="grad-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#06B6D4"></stop>
+                            <stop offset="100%" stop-color="#0891B2"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-blue)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-robot canvas_img" style="font-size: 80px; color: #4F46E5;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Multi-Tenant</span>
+                <strong class="canvas_copy_title">Role</strong>
+                <strong class="canvas_copy_title">Management</strong>
+                <span class="canvas_copy_details">Organizations & clients with tiered access</span>
+            </div>
+        </a>
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-purple)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-brain canvas_img" style="font-size: 80px; color: #8B5CF6;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Custom</span>
+                <strong class="canvas_copy_title">Agent</strong>
+                <strong class="canvas_copy_title">Management</strong>
+                <span class="canvas_copy_details">Personalized AI personas & behavior</span>
+            </div>
+        </a>
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-cyan)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-network-wired canvas_img" style="font-size: 80px; color: #06B6D4;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Real-time</span>
+                <strong class="canvas_copy_title">Matrix</strong>
+                <strong class="canvas_copy_title">Confirmation</strong>
+                <span class="canvas_copy_details">Live metrics & error handling</span>
+            </div>
+        </a>
+        
+        <!-- Information Unification -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#D97706;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-sitemap canvas_img" style="font-size: 60px; color: #F59E0B;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Data</span>
+                <strong class="canvas_copy_title">Unify</strong>
+                <strong class="canvas_copy_title">Info</strong>
+                <span class="canvas_copy_details">Centralized intelligence</span>
+            </div>
+        </a>
+        
+        <!-- CRM & Contact Management -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#10B981;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#059669;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-green)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-users canvas_img" style="font-size: 60px; color: #10B981;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Customer</span>
+                <strong class="canvas_copy_title">CRM</strong>
+                <strong class="canvas_copy_title">Contact</strong>
+                <span class="canvas_copy_details">Relationship management</span>
+            </div>
+        </a>
+        
+        <!-- Calendar & Booking -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-red)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-calendar-alt canvas_img" style="font-size: 60px; color: #EF4444;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Schedule</span>
+                <strong class="canvas_copy_title">Calendar</strong>
+                <strong class="canvas_copy_title">Booking</strong>
+                <span class="canvas_copy_details">Smart scheduling</span>
+            </div>
+        </a>
+        
+        <!-- Communication Automation -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-indigo" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-indigo)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-phone-alt canvas_img" style="font-size: 60px; color: #6366F1;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Comms</span>
+                <strong class="canvas_copy_title">Call</strong>
+                <strong class="canvas_copy_title">Automation</strong>
+                <span class="canvas_copy_details">SMS, Email, Voice</span>
+            </div>
+        </a>
+        
+        <!-- Call Logs & AI Summaries -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#DB2777;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-pink)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-microphone canvas_img" style="font-size: 60px; color: #EC4899;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Records</span>
+                <strong class="canvas_copy_title">Call</strong>
+                <strong class="canvas_copy_title">Logs</strong>
+                <span class="canvas_copy_details">AI summaries</span>
+            </div>
+        </a>
+        
+        <!-- Session Context & Memory -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-teal" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#14B8A6;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#0D9488;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-teal)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-memory canvas_img" style="font-size: 60px; color: #14B8A6;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Context</span>
+                <strong class="canvas_copy_title">Session</strong>
+                <strong class="canvas_copy_title">Memory</strong>
+                <span class="canvas_copy_details">10 interactions</span>
+            </div>
+        </a>
+        
+        <!-- Tone Detection -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-yellow" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#D97706;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-yellow)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-smile canvas_img" style="font-size: 60px; color: #F59E0B;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Emotion</span>
+                <strong class="canvas_copy_title">Tone</strong>
+                <strong class="canvas_copy_title">Detection</strong>
+                <span class="canvas_copy_details">Adaptive response</span>
+            </div>
+        </a>
+        
+        <!-- API Usage & Analytics -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-violet" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-violet)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-chart-bar canvas_img" style="font-size: 60px; color: #8B5CF6;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Metrics</span>
+                <strong class="canvas_copy_title">API</strong>
+                <strong class="canvas_copy_title">Analytics</strong>
+                <span class="canvas_copy_details">Cost transparency</span>
+            </div>
+        </a>
+        
+        <!-- Audio Playbacks -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#10B981;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#059669;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-emerald)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-play canvas_img" style="font-size: 60px; color: #10B981;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Media</span>
+                <strong class="canvas_copy_title">Audio</strong>
+                <strong class="canvas_copy_title">Playback</strong>
+                <span class="canvas_copy_details">Voice recordings</span>
+            </div>
+        </a>
+        
+        <!-- Frontend Dashboard -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-slate" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#64748B;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#475569;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-slate)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-tachometer-alt canvas_img" style="font-size: 60px; color: #64748B;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Admin</span>
+                <strong class="canvas_copy_title">Frontend</strong>
+                <strong class="canvas_copy_title">Dashboard</strong>
+                <span class="canvas_copy_details">Performance matrix</span>
+            </div>
+        </a>
+        
+        <!-- Integration & Automation -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-lime" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#84CC16;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#65A30D;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-lime)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-plug canvas_img" style="font-size: 60px; color: #84CC16;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Connect</span>
+                <strong class="canvas_copy_title">Integration</strong>
+                <strong class="canvas_copy_title">Automation</strong>
+                <span class="canvas_copy_details">Calendar providers</span>
+            </div>
+        </a>
+        
+        <!-- Security & Compliance -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-rose" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#F43F5E;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#E11D48;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-rose)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-shield-alt canvas_img" style="font-size: 60px; color: #F43F5E;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Privacy</span>
+                <strong class="canvas_copy_title">Security</strong>
+                <strong class="canvas_copy_title">Compliance</strong>
+                <span class="canvas_copy_details">GDPR, CCPA ready</span>
+            </div>
+        </a>
+        
+        <!-- Error Handling & UX -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#D97706;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-amber)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-exclamation-triangle canvas_img" style="font-size: 60px; color: #F59E0B;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Reliability</span>
+                <strong class="canvas_copy_title">Error</strong>
+                <strong class="canvas_copy_title">Handling</strong>
+                <span class="canvas_copy_details">Smart retry logic</span>
+            </div>
+        </a>
+        
+        <!-- Custom Branding -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-sky" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#0284C7;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-sky)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-palette canvas_img" style="font-size: 60px; color: #0EA5E9;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Brand</span>
+                <strong class="canvas_copy_title">Custom</strong>
+                <strong class="canvas_copy_title">Branding</strong>
+                <span class="canvas_copy_details">Per talent themes</span>
+            </div>
+        </a>
+        
+        <!-- Support & Documentation -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-stone" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#78716C;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#57534E;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-stone)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-life-ring canvas_img" style="font-size: 60px; color: #78716C;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Help</span>
+                <strong class="canvas_copy_title">Support</strong>
+                <strong class="canvas_copy_title">Docs</strong>
+                <span class="canvas_copy_details">Guides & live chat</span>
+            </div>
+        </a>
+        
+        <!-- Deployment & Scalability -->
+        <a href="#" class="canvas">
+            <div class="canvas_border">
+                <svg>
+                    <defs>
+                        <linearGradient id="grad-neutral" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#737373;stop-opacity:1"></stop>
+                            <stop offset="100%" style="stop-color:#525252;stop-opacity:1"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect class="rect-gradient" fill="none" stroke="url(#grad-neutral)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="canvas_img-wrapper">
+                <i class="fas fa-rocket canvas_img" style="font-size: 60px; color: #737373;"></i>
+            </div>
+            <div class="canvas_copy canvas_copy--left">
+                <span class="canvas_copy_subtitle">Scale</span>
+                <strong class="canvas_copy_title">Deploy</strong>
+                <strong class="canvas_copy_title">Scale</strong>
+                <span class="canvas_copy_details">Horizontal scaling</span>
+            </div>
+        </a>
+    </div>
+    </div> <!-- End main-content -->
+    
+    <script>
+        // Loading screen functionality
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementById('loading-screen').style.display = 'none';
+                    document.getElementById('main-content').style.display = 'block';
+                    document.getElementById('main-content').style.opacity = '0';
+                    setTimeout(function() {
+                        document.getElementById('main-content').style.opacity = '1';
+                    }, 50);
+                }, 500);
+            }, 2000); // Show loading for 2 seconds
+        });
+    </script>
+    
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
