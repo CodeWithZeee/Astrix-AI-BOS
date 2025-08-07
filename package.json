@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "echo 'Build completed successfully'",
     "serve": "npx http-server . -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +18,5 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
   }
 }

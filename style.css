@@ -66,10 +66,10 @@ body {
   -ms-transform-origin: left center;
   transform-origin: left center;
 }
-
+/* 
 .main-header.fixed-nav #mainMenu li > a::before {
-  /* background: #ffffff; */
-}
+  background: #ffffff; 
+} */
 
 .main-header {
   position: fixed;
